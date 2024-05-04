@@ -4,7 +4,7 @@
 
 ## Multiple picking application made with React
 
-Fictitious travel agency website, created to experiment the useEffect hook and avoiding side effects in React App.
+Fictitious travel agency website, created to experiment the useEffect hook and dealing with side effects in React App.
 Created with React as part of my preparation for the "Fullstack Web & Mobile Application Developer" professional qualification.
 
 ---
@@ -38,7 +38,7 @@ In the root project folder to serve this project and view it in your browser.
 
 Alternatively, you can view a demo at the following address:
 
-[https://abdevweb.online/](https://abdevweb.online/)
+[https://placepicker.abdevweb.online/](https://placepicker.abdevweb.online/)
 
 ---
 
