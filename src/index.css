@@ -18,7 +18,9 @@ html {
   height: 100%;
   /* min-height: 100rem; */
 }
-
+button {
+  cursor: pointer;
+}
 body {
   margin: 0;
   padding: 2rem;
