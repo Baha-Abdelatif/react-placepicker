@@ -78,7 +78,7 @@ function App() {
           title='Available Places'
           places={availablePlaces}
           fallbackText={
-            "Sorting places by distances... (You might have to allow geolocation and reload)"
+            "Sorting places by distances... (You might have to allow position and reload)"
           }
           onSelectPlace={handleSelectPlace}
         />
