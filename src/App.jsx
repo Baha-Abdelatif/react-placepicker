@@ -20,7 +20,7 @@ function App() {
         position.coords.latitude,
         position.coords.longitude
       );
-      setAvailablePlaces((pre) => [...pre, [...sortedPlaces]]);
+      setAvailablePlaces(sortedPlaces);
     });
   }, []);
 
@@ -76,7 +76,10 @@ function App() {
         />
         <Places
           title='Available Places'
-          places={AVAILABLE_PLACES}
+          places={availablePlaces}
+          fallbackText={
+            "Sorting places by distances... (You might have to allow geolocation and reload)"
+          }
           onSelectPlace={handleSelectPlace}
         />
       </main>
