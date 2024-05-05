@@ -156,7 +156,23 @@ header p {
   max-width: 38ch;
   color: #804242;
 }
-
+#delete-confirmation span {
+  color: #5d0909;
+}
+progress {
+  width: 100%;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+progress::-webkit-progress-bar {
+  background-color: #804242;
+  border-radius: 7px;
+}
+progress::-webkit-progress-value {
+  background-color: #5d0909;
+  border-radius: 7px;
+  box-shadow: 0px 0px 3px 1px rgba(255, 0, 0, 0.8);
+}
 #confirmation-actions {
   margin-top: 1rem;
   display: flex;
